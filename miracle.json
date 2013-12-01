@@ -38,7 +38,7 @@
     "doSplitLongMoves": true,
     "splitMinimumDistance": 0.4,
 
-    "extruderTemp0": 215,
+    "extruderTemp0": 230,
     "extruderTemp1": 0,
     "platformTemp": 23,
 

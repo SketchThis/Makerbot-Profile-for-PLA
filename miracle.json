@@ -28,7 +28,7 @@
     "doDynamicSpeed": true,
     "dynamicSpeedCurvatureThreshold": 15,
     "dynamicSpeedDetectionWindow": 3.0,
-    "dynamicSpeedSlowdownRatio": 0.1,
+    "dynamicSpeedSlowdownRatio": 0.05,
     "doDynamicSpeedGradually": true,
     "dynamicSpeedTransitionWindow": 6.0,
     "dynamicSpeedTransitionShape": 0.4,

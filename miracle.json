@@ -25,22 +25,22 @@
     "minLayerDuration": 5.0,
     "minSpeedMultiplier": 0.3,
 
-    "doDynamicSpeed": false,
+    "doDynamicSpeed": true,
     "dynamicSpeedCurvatureThreshold": 15,
     "dynamicSpeedDetectionWindow": 3.0,
-    "dynamicSpeedSlowdownRatio": 0.3,
+    "dynamicSpeedSlowdownRatio": 0.05,
     "doDynamicSpeedGradually": true,
     "dynamicSpeedTransitionWindow": 6.0,
     "dynamicSpeedTransitionShape": 0.4,
     "doDynamicSpeedOutermostShell" : true,
-    "doDynamicSpeedInteriorShells" : false,
+    "doDynamicSpeedInteriorShells" : true,
 
     "doSplitLongMoves": true,
     "splitMinimumDistance": 0.4,
 
     "extruderTemp0": 230,
-    "extruderTemp1": 230,
-    "platformTemp": 0,
+    "extruderTemp1": 0,
+    "platformTemp": 23,
 
     "numberOfShells": 2,
     "infillShellSpacingMultiplier": 0.7,
@@ -100,7 +100,7 @@
     "raftInterfaceLayers": 1,
     "raftInterfaceThickness": 0.27,
     "raftInterfaceWidth": 0.4,
-    "raftModelSpacing": 0.21,
+    "raftModelSpacing": 0.4,
     "raftOutset": 4,
     "raftSurfaceAngle": 0,
     "raftSurfaceLayers": 2,
@@ -121,16 +121,16 @@
     "anchorExtrusionAmount": 5.0,
     "anchorExtrusionSpeed": 2.0,
 
-    "doSupport": false,
+    "doSupport": true,
     "defaultSupportMaterial": 0,
     "doMixedSupport": false,
-    "doSupportUnderBridges": false,
+    "doSupportUnderBridges": true,
     "supportAligned": true,
     "supportLeakyConnections": true,
     "supportDensity": 0.2,
     "supportExtraDistance": 0.5,
-    "supportAngle": 68.0,
-    "supportModelSpacing": 0.4,
+    "supportAngle": 20.0,
+    "supportModelSpacing": 0.5,
     "supportExcessive": false,
 
     "doFanCommand": true,
@@ -194,7 +194,7 @@
             "temperature_disabled": 230.0
         },
         "firstlayer": {
-            "feedrate": 30,
+            "feedrate": 10,
             "temperature_disabled": 230.0
         },
         "firstlayerraft": {

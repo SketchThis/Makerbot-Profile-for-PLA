@@ -131,7 +131,7 @@
     "supportExtraDistance": 0.5,
     "supportAngle": 20.0,
     "supportModelSpacing": 0.5,
-    "supportExcessive": false,
+    "supportExcessive": true,
 
     "doFanCommand": true,
     "fanLayer": 1,

@@ -28,12 +28,12 @@
     "doDynamicSpeed": true,
     "dynamicSpeedCurvatureThreshold": 15,
     "dynamicSpeedDetectionWindow": 3.0,
-    "dynamicSpeedSlowdownRatio": 0.05,
-    "doDynamicSpeedGradually": true,
+    "dynamicSpeedSlowdownRatio": 0.1,
+    "doDynamicSpeedGradually": false,
     "dynamicSpeedTransitionWindow": 6.0,
     "dynamicSpeedTransitionShape": 0.4,
-    "doDynamicSpeedOutermostShell" : true,
-    "doDynamicSpeedInteriorShells" : true,
+    "doDynamicSpeedOutermostShell" : false,
+    "doDynamicSpeedInteriorShells" : false,
 
     "doSplitLongMoves": true,
     "splitMinimumDistance": 0.4,
@@ -42,7 +42,7 @@
     "extruderTemp1": 0,
     "platformTemp": 23,
 
-    "numberOfShells": 2,
+    "numberOfShells": 3,
     "infillShellSpacingMultiplier": 0.7,
     "insetDistanceMultiplier": 1.0,
 
